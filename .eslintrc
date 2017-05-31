@@ -1,0 +1,10 @@
+{
+  "extends": ["airbnb-base"],
+  "env": {
+    "mocha": true
+  },
+  "rules": {
+    "comma-dangle": 0, // No comma needed for the last element of array
+    "no-console": 0    // Stop showing warning for console.log
+  }
+}
